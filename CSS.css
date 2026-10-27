@@ -1,0 +1,25 @@
+/* WADAH SEMUA IKON */
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* UKURAN AREA SETIAP IKON */
+.contact-icons a {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* UKURAN GAMBAR LOGO */
+.contact-icons img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+}
